@@ -1,0 +1,6 @@
+{
+  "name": "Daily Mind Games",
+  "description": "Enjoyable daily memory and cognitive engagement games designed for older adults, inspired by classic wooden tabletop puzzles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
