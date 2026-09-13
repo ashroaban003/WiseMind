@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, ShieldCheck } from 'lucide-react';
+import { Heart, ShieldCheck, Brain } from 'lucide-react';
 
 interface FooterProps {
   onNavigate?: (path: string) => void;
@@ -14,10 +14,10 @@ export const Footer: React.FC<FooterProps> = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-lg wood-texture flex items-center justify-center text-[#FFFDF9] shadow-sm">
-                <span className="font-serif-title font-bold text-xl">M</span>
+                <Brain className="w-6 h-6 text-[#FFF8EB] drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)] stroke-[2.2]" />
               </div>
               <span className="font-serif-title text-2xl font-bold text-[#2D1B0D]">
-                Daily Mind Games
+                wiseMind
               </span>
             </div>
             <p className="text-lg text-[#5A3F2A] leading-relaxed">
@@ -38,14 +38,14 @@ export const Footer: React.FC<FooterProps> = () => {
               </h4>
             </div>
             <p className="text-base text-[#5A402B] leading-relaxed">
-              Daily Mind Games is dedicated to lighthearted fun, memory play, and enjoyable cognitive engagement. It is <strong>not</strong> a medical diagnostic tool or therapeutic treatment, and makes no health cure claims. Just pure, wholesome tabletop fun.
+              wiseMind is dedicated to lighthearted fun, memory play, and enjoyable cognitive engagement. It is <strong>not</strong> a medical diagnostic tool or therapeutic treatment, and makes no health cure claims. Just pure, wholesome tabletop fun.
             </p>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-base text-[#6B513C]">
-          <p>© {new Date().getFullYear()} Daily Mind Games. Inspired by classic wooden tabletop puzzles.</p>
+          <p>© {new Date().getFullYear()} wiseMind. Inspired by classic wooden tabletop puzzles.</p>
           <div className="flex items-center gap-6">
             <span>High Contrast & Accessible</span>
             <span>•</span>

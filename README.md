@@ -1,4 +1,4 @@
-# Daily Mind Games
+# wiseMind
 
 > Enjoyable, gentle daily memory and cognitive engagement activities designed for older adults, inspired by classic wooden tabletop puzzles.
 
@@ -6,7 +6,7 @@
 
 ## 📖 Overview
 
-**Daily Mind Games** is a web-based cognitive engagement platform designed with older adults in mind. Inspired by the warmth of heirloom wooden board games and tactile tabletop puzzles, it provides stimulating daily mental exercises without the clinical stress, aggressive timers, or predatory microtransactions of traditional "brain training" apps.
+**wiseMind** is a web-based cognitive engagement platform designed with older adults in mind. Inspired by the warmth of heirloom wooden board games and tactile tabletop puzzles, it provides stimulating daily mental exercises without the clinical stress, aggressive timers, or predatory microtransactions of traditional "brain training" apps.
 
 Every puzzle emphasizes clarity, dignity, and relaxation: large readable typography, generous click/tap zones (48px+), high-contrast warm palettes, gentle acoustic soundscapes, and encouraging positive reinforcement.
 

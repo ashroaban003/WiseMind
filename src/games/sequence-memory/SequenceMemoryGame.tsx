@@ -421,19 +421,19 @@ export const SequenceMemoryGame: React.FC<SequenceMemoryGameProps> = ({
       {/* 1. COMPACT HEADER */}
       <div className="space-y-2">
         {/* Top compact row: ← Games | Score 120 | Round 3 | Easy | 🔥 1 | [Volume] */}
-        <div className="flex items-center justify-between gap-2 py-1.5 border-b border-[#E5D7BF]">
+        <div className="flex items-center justify-between gap-1.5 sm:gap-2 py-1.5 border-b border-[#E5D7BF]">
           <button
             onClick={onBack}
-            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-sm sm:text-base font-semibold text-[#5E3F27] hover:bg-[#EFE4D0] border border-[#DECDB3] transition-colors cursor-pointer"
+            className="inline-flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-xl text-xs sm:text-base font-semibold text-[#5E3F27] hover:bg-[#EFE4D0] border border-[#DECDB3] transition-colors cursor-pointer shrink-0"
           >
-            <ArrowLeft className="w-4 h-4" />
+            <ArrowLeft className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
             <span>Games</span>
           </button>
 
-          <div className="flex items-center gap-2 sm:gap-2.5">
+          <div className="flex items-center gap-1 sm:gap-2 flex-wrap justify-end">
             <div className="relative">
               <span
-                className={`text-sm sm:text-base font-bold px-2.5 py-1 rounded-lg transition-all duration-300 ${
+                className={`text-xs sm:text-sm font-bold px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg transition-all duration-300 ${
                   personalBestToast
                     ? 'bg-[#FFECC7] text-[#914614] border-2 border-[#ECA742] shadow-sm ring-2 ring-[#F5C7A2]/60 animate-pulse'
                     : 'bg-[#FAF3E6] text-[#352110] border border-[#E2D2BC]'
@@ -451,16 +451,16 @@ export const SequenceMemoryGame: React.FC<SequenceMemoryGameProps> = ({
               )}
             </div>
 
-            <span className="text-sm sm:text-base font-bold text-[#352110] px-2.5 py-1 rounded-lg bg-[#FAF3E6] border border-[#E2D2BC]">
+            <span className="text-xs sm:text-sm font-bold text-[#352110] px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg bg-[#FAF3E6] border border-[#E2D2BC]">
               Round {roundNumber}
             </span>
 
-            <span className="text-xs sm:text-sm font-semibold text-[#6B4E36] bg-[#EFE3CE] px-2.5 py-1 rounded-lg border border-[#DECDB3] capitalize">
+            <span className="text-[11px] sm:text-xs font-semibold text-[#6B4E36] bg-[#EFE3CE] px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg border border-[#DECDB3] capitalize">
               {difficulty}
             </span>
 
             <div
-              className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs sm:text-sm font-bold border ${
+              className={`inline-flex items-center gap-0.5 sm:gap-1 px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg text-xs sm:text-sm font-bold border ${
                 consecutiveWins > 0
                   ? 'bg-[#FFEBD6] text-[#A24D1B] border-[#F5C7A2]'
                   : 'bg-[#F2E8D8] text-[#7A5B3E] border-[#DECDB3]'
@@ -468,7 +468,7 @@ export const SequenceMemoryGame: React.FC<SequenceMemoryGameProps> = ({
               title={`${consecutiveWins} consecutive wins`}
             >
               <Flame
-                className={`w-4 h-4 ${
+                className={`w-3.5 h-3.5 sm:w-4 sm:h-4 ${
                   consecutiveWins > 0 ? 'fill-current text-[#D9531E]' : 'text-[#9C7A58]'
                 }`}
               />
@@ -478,10 +478,10 @@ export const SequenceMemoryGame: React.FC<SequenceMemoryGameProps> = ({
             <button
               onClick={handleToggleSound}
               aria-label={soundOn ? 'Turn sound off' : 'Turn sound on'}
-              className="p-1.5 rounded-lg bg-[#F0E6D2] hover:bg-[#E6D8BE] text-[#4A331E] border border-[#D5C2A3] transition-colors cursor-pointer"
+              className="p-1 sm:p-1.5 rounded-lg bg-[#F0E6D2] hover:bg-[#E6D8BE] text-[#4A331E] border border-[#D5C2A3] transition-colors cursor-pointer"
               title={soundOn ? 'Sound On' : 'Sound Off'}
             >
-              {soundOn ? <Volume2 className="w-4 h-4" /> : <VolumeX className="w-4 h-4" />}
+              {soundOn ? <Volume2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" /> : <VolumeX className="w-3.5 h-3.5 sm:w-4 sm:h-4" />}
             </button>
           </div>
         </div>

@@ -1,5 +1,5 @@
 /**
- * Core type definitions for Daily Mind Games
+ * Core type definitions for wiseMind
  */
 
 export type GameCategory = 'Memory' | 'Attention' | 'Logic' | 'Visual';

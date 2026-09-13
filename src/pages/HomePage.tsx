@@ -180,7 +180,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
         </div>
 
         <p className="text-xl text-[#5C4129] leading-relaxed max-w-3xl mx-auto">
-          We believe mental wellness comes from pleasant routines, curiosity, and smiles. Daily Mind Games is built with warm wooden aesthetics, forgiving controls, and large text so you can relax with a morning cup of coffee or tea and spend a few quiet, rewarding minutes exercising your recall.
+          We believe mental wellness comes from pleasant routines, curiosity, and smiles. wiseMind is built with warm wooden aesthetics, forgiving controls, and large text so you can relax with a morning cup of coffee or tea and spend a few quiet, rewarding minutes exercising your recall.
         </p>
       </section>
     </div>

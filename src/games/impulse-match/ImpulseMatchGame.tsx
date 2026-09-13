@@ -295,20 +295,20 @@ export const ImpulseMatchGame: React.FC<ImpulseMatchGameProps> = ({ onBack }) =>
   return (
     <div className="w-full max-w-4xl mx-auto px-4 sm:px-6 py-4 sm:py-6 space-y-4">
       {/* Top compact game header: ← Games | Score 120 | Round 1 | Difficulty Selector | Stop/Skip | 🔥 0 | Volume */}
-      <div className="flex items-center justify-between gap-2 py-1.5 border-b border-[#E5D7BF]">
+      <div className="flex items-center justify-between gap-1.5 sm:gap-2 py-1.5 border-b border-[#E5D7BF]">
         <button
           onClick={handleBackToGames}
-          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-sm sm:text-base font-semibold text-[#5E3F27] hover:bg-[#EFE4D0] border border-[#DECDB3] transition-colors cursor-pointer"
+          className="inline-flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-xl text-xs sm:text-base font-semibold text-[#5E3F27] hover:bg-[#EFE4D0] border border-[#DECDB3] transition-colors cursor-pointer shrink-0"
         >
-          <ArrowLeft className="w-4 h-4" />
+          <ArrowLeft className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
           <span>Games</span>
         </button>
 
-        <div className="flex items-center gap-1.5 sm:gap-2.5 flex-wrap justify-end">
+        <div className="flex items-center gap-1 sm:gap-2 flex-wrap justify-end">
           {/* Score badge with subtle personal best highlight */}
           <div className="relative">
             <span
-              className={`text-sm sm:text-base font-bold px-2.5 py-1 rounded-lg transition-all duration-300 ${
+              className={`text-xs sm:text-sm font-bold px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg transition-all duration-300 ${
                 personalBestToast
                   ? 'bg-[#FFECC7] text-[#914614] border-2 border-[#ECA742] shadow-sm ring-2 ring-[#F5C7A2]/60 animate-pulse'
                   : 'bg-[#FAF3E6] text-[#352110] border border-[#E2D2BC]'
@@ -326,7 +326,7 @@ export const ImpulseMatchGame: React.FC<ImpulseMatchGameProps> = ({ onBack }) =>
             )}
           </div>
 
-          <span className="text-sm sm:text-base font-bold text-[#352110] px-2.5 py-1 rounded-lg bg-[#FAF3E6] border border-[#E2D2BC]">
+          <span className="text-xs sm:text-sm font-bold text-[#352110] px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg bg-[#FAF3E6] border border-[#E2D2BC]">
             Round {roundNumber}
           </span>
 

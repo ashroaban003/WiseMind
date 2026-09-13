@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="woodGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A2622D"/>
+      <stop offset="50%" stop-color="#7B4215"/>
+      <stop offset="100%" stop-color="#542B0A"/>
+    </linearGradient>
+    <linearGradient id="woodBevel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E5BE8A" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#3D1D05" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <!-- Wooden tile background -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#woodGrad)"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="url(#woodBevel)" stroke-width="2.5"/>
+  <rect x="4" y="4" width="56" height="56" rx="12" fill="none" stroke="#2B1403" stroke-width="1" stroke-opacity="0.4"/>
+  <!-- Wooden brain icon (carved ivory/cream) -->
+  <g transform="translate(12, 12) scale(1.667)" fill="none" stroke="#FFF7EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/>
+    <path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/>
+    <path d="M12 5v14"/>
+    <path d="M12 9h4a2 2 0 0 1 2 2v1"/>
+    <path d="M12 13h-4a2 2 0 0 0-2 2v1"/>
+  </g>
+</svg>

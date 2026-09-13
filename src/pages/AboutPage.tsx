@@ -16,7 +16,7 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
         </div>
 
         <h1 className="font-serif-title text-4xl sm:text-5xl font-bold text-[#2C190B] tracking-tight">
-          About Daily Mind Games
+          About wiseMind
         </h1>
 
         <p className="text-xl sm:text-2xl text-[#5E432C] leading-relaxed">
@@ -34,7 +34,7 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
             Many digital apps today are loud, flashing, competitive, or filled with countdown alarms. We wanted something different—an experience reminiscent of opening a cedar game box on a Sunday afternoon, laying polished wooden blocks on a warm dining table, and quietly challenging yourself with family.
           </p>
           <p>
-            Every texture, shadow, and transition in Daily Mind Games is tuned to evoke that comforting warmth. There are no frantic timers, no penalty buzzers, and no confusing menus.
+            Every texture, shadow, and transition in wiseMind is tuned to evoke that comforting warmth. There are no frantic timers, no penalty buzzers, and no confusing menus.
           </p>
         </div>
 
@@ -47,7 +47,7 @@ export const AboutPage: React.FC<AboutPageProps> = () => {
             </h3>
           </div>
           <p>
-            We believe in honest, straightforward communication. Daily Mind Games is <strong>not</strong> a medical diagnostic tool or therapeutic treatment, and we make zero clinical claims such as "preventing dementia" or guaranteed cognitive cures.
+            We believe in honest, straightforward communication. wiseMind is <strong>not</strong> a medical diagnostic tool or therapeutic treatment, and we make zero clinical claims such as "preventing dementia" or guaranteed cognitive cures.
           </p>
           <p>
             Instead, we position our activities around what they truly are: <strong>enjoyable, mentally active daily pastimes, small pleasant memory challenges, and simple good fun.</strong>

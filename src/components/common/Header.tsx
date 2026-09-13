@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Sparkles, Menu, X, Play } from 'lucide-react';
+import { Sparkles, Menu, X, Play, Brain } from 'lucide-react';
 import { Button } from './Button';
 import { getAvailableGames } from '../../games/registry';
 
@@ -42,17 +42,15 @@ export const Header: React.FC<HeaderProps> = ({ currentPath, onNavigate }) => {
           <button
             onClick={() => handleNavClick('/')}
             className="flex items-center gap-3.5 group text-left cursor-pointer focus:outline-none focus-visible:ring-4 focus-visible:ring-[#B8814D] rounded-xl p-1.5 transition-transform"
-            aria-label="Daily Mind Games Home"
+            aria-label="wiseMind Home"
           >
-            {/* Wooden Block Logo Icon */}
+            {/* Wooden Brain Logo Icon */}
             <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl wood-texture flex items-center justify-center text-[#FFFDF9] shadow-[0_3px_8px_rgba(80,45,15,0.3)] border border-[#E8C293]/40 group-hover:scale-105 transition-transform">
-              <span className="font-serif-title font-bold text-2xl sm:text-3xl tracking-tight text-[#FFF8EB] drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)]">
-                M
-              </span>
+              <Brain className="w-7 h-7 sm:w-8 sm:h-8 text-[#FFF8EB] drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)] stroke-[2.2]" />
             </div>
             <div>
               <span className="font-serif-title text-2xl sm:text-3xl font-bold text-[#352110] tracking-tight block leading-tight">
-                Daily Mind Games
+                wiseMind
               </span>
               <span className="text-sm sm:text-base text-[#7A5B3D] font-medium block">
                 Warm Tabletop Brain Activities

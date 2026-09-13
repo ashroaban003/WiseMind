@@ -26,7 +26,7 @@ export const HowItWorksPage: React.FC<HowItWorksPageProps> = ({ onNavigate }) =>
           How to Play &amp; Enjoy
         </h1>
         <p className="text-xl sm:text-2xl text-[#5E432C] leading-relaxed">
-          Daily Mind Games is built with simplicity, kindness, and comfort at its core.
+          wiseMind is built with simplicity, kindness, and comfort at its core.
         </p>
       </div>
 
